@@ -1,20 +1,48 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+	createStackNavigator,
+	TransitionPresets,
+} from "@react-navigation/stack";
+import { NavigationContainer } from "@react-navigation/native";
+import WelcomeScreen from "./src/screens/WelcomeScreen/WelcomeScreen";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
+import CameraScreen from "./src/screens/CameraScreen/CameraScreen";
+import UploadImageScreen from "./src/screens/UploadImageScreen/UploadImageScreen";
+import ImagePreviewScreen from "./src/screens/ImagePreviewScreen/ImagePreviewScreen";
+import ResultScreen from "./src/screens/ResultScreen/ResultScreen";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+const Stack = createStackNavigator();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const App = () => {
+	return (
+		<NavigationContainer>
+			<Stack.Navigator
+				screenOptions={{
+					headerStyle: {
+						backgroundColor: "#333533",
+					},
+					headerTitleStyle: {
+						color: "#f8f9fa",
+					},
+					headerTintColor: "#f8f9fa",
+					...TransitionPresets.FadeFromBottomAndroid,
+				}}
+			>
+				<Stack.Screen
+					name="Welcome"
+					component={WelcomeScreen}
+					options={{ headerShown: false }}
+				/>
+				<Stack.Screen name="Home" component={HomeScreen} />
+				<Stack.Screen name="Camera" component={CameraScreen} />
+				<Stack.Screen name="Upload" component={UploadImageScreen} />
+				<Stack.Screen
+					name="Image Preview"
+					component={ImagePreviewScreen}
+				/>
+				<Stack.Screen name="Result" component={ResultScreen} />
+			</Stack.Navigator>
+		</NavigationContainer>
+	);
+};
+
+export default App;

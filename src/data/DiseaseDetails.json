@@ -1,0 +1,319 @@
+{
+	"disease_data": {
+		"cereal_maize_disease_blight": {
+			"name": "Corn Leaf Blight",
+			"cause": "Fungus (Exserohilum turcicum)",
+			"description": "Fungal disease that affects corn leaves, particularly in cool, wet weather.",
+			"symptoms": [
+				"Long, cigar-shaped, grayish-green to tan lesions on leaves (especially lower leaves), lesions may have dark brown edges and become necrotic in the center as they mature, leaves may shred and tear due to blight lesions"
+			],
+			"Treatment": [
+				"Plant NCLB-resistant corn varieties",
+				"Crop rotation with non-host crops like soybeans or cotton",
+				"Tilling to bury infected crop debris after harvest",
+				"Fungicide application may be necessary in severe cases"
+			]
+		},
+		"cereal_maize_disease_common_rust": {
+			"name": "Common Rust",
+			"cause": "Fungus (Puccinia sorghi)",
+			"description": "Fungal disease that infects corn leaves and other parts, causing rust-colored pustules and reducing yield.",
+			"symptoms": "Minute flecks on both sides of leaves; circular to elongate, cinnamon-brown, powdery pustules on both leaf surfaces; brownish black pustules develop as the crop matures; infection can spread to sheath and other parts in severe cases",
+			"treatment": [
+				"Plant rust-resistant corn varieties",
+				"Practice crop rotation with non-cereal crops like soybeans or cotton",
+				"Deep plowing of crop residues after harvest to remove fungal spores",
+				"Fungicide application may be necessary in severe cases"
+			]
+		},
+		"cereal_maize_disease_ear_rot": {
+			"name": "Corn Ear Rot",
+			"cause": "Fungi (Multiple genera including Fusarium, Aspergillus, Diplodia)",
+			"description": "Fungal disease affecting corn ears, causing discoloration, rot, and reduced grain quality and yield.",
+			"symptoms": "Discolored or rotted kernels on the ear; premature ripening of ears; white or pink mold on kernels; stunted or malformed ears",
+			"treatment": [
+				"Practice crop rotation with non-host crops like soybeans or cotton",
+				"Harvest corn at proper moisture level to minimize fungal growth",
+				"Avoid ear injury during pollination and harvest",
+				"Fungicide application may be necessary in some cases, effectiveness depends on fungal species"
+			]
+		},
+		"cereal_maize_disease_grey_leaf_spot": {
+			"name": "Gray Leaf Spot",
+			"cause": "Fungus (Cercospora zeae-maydis)",
+			"description": "Fungal disease that affects corn leaves, causing elliptical to elongated gray lesions and reducing yield.",
+			"symptoms": "Elliptical to elongated, grayish-brown to tan lesions on leaves, often with dark brown borders; lesions may enlarge and merge, causing significant leaf area loss; severe infection can cause leaves to shred and wither",
+			"treatment": [
+				"Plant Gray Leaf Spot-resistant corn varieties",
+				"Practice crop rotation with non-maize crops like soybeans or cotton",
+				"Tilling or removing infected crop debris after harvest to reduce fungal overwintering",
+				"Fungicide application may be necessary in severe cases, especially during warm, humid weather"
+			]
+		},
+		"cereal_maize_healthy": {
+			"name": "Corn (Healthy)",
+			"cause": "",
+			"description": "Corn, also known as maize, is a valuable cereal grain rich in carbohydrates, energy, and essential nutrients.",
+			"symptoms": "Healthy corn plants exhibit upright growth with sturdy stalks and internodes; leaves are green and free from spots or discoloration; tassels and silks emerge during flowering; ears develop and fill with kernels during maturity",
+			"treatment": [
+				"Provide adequate water and nutrients throughout the growing season",
+				"Manage weeds and pests to minimize competition and damage",
+				"Practice crop rotation with non-maize crops like soybeans or cotton to improve soil health",
+				"Monitor for signs of diseases and address them promptly if necessary"
+			]
+		},
+		"cereal_rice_disease_bacterial_leaf_blight": {
+			"name": "Bacterial Leaf Blight",
+			"cause": "Bacteria (Pseudomonas syringae)",
+			"description": "Bacterial disease that infects corn leaves, causing water-soaked lesions and reducing yield.",
+			"symptoms": "Water-soaked areas on leaves that turn yellow or brown and may become streaks; lesions may enlarge and merge, causing significant leaf area loss; wilting of leaves in severe cases",
+			"treatment": [
+				"Plant corn varieties with resistance to bacterial leaf blight",
+				"Practice crop rotation with non-maize crops like soybeans or cotton",
+				"Manage irrigation to avoid creating favorable conditions for bacteria",
+				"Fungicide application may be somewhat effective in some cases, but effectiveness can vary depending on the specific bacteria strain"
+			]
+		},
+		"cereal_rice_disease_bakane": {
+			"name": "Bakanae Disease",
+			"cause": "Fungus (Gibberella fujikuroi)",
+			"description": "Fungal disease that affects corn seedlings, causing excessive growth, abnormal development, and yield loss.",
+			"symptoms": "Seedlings with excessive elongation (taller and thinner than healthy plants); pale green or yellowing leaves; distorted or malformed leaves and stalks; wilting and death of seedlings in severe cases",
+			"treatment": [
+				"Plant Bakanae disease-resistant corn varieties",
+				"Avoid planting corn seeds in contaminated soil",
+				"Fungicide seed treatment may be used in some cases, but effectiveness can vary"
+			]
+		},
+		"cereal_rice_disease_blast": {
+			"name": "Corn Blast",
+			"cause": "Fungus (Cochliobolus heterostrophus)",
+			"description": "Fungal disease that infects various parts of corn plants, causing lesions and reducing yield.",
+			"symptoms": "Oval to elongated, grayish-green to tan lesions on leaves, often with brown borders; oval to elliptical, grayish-white to tan lesions on husks and stalks; lesions may enlarge and merge; premature death of leaves in severe cases; grain infection can result in discolored and shrunken kernels",
+			"treatment": [
+				"Plant corn varieties with resistance to Corn Blast",
+				"Practice crop rotation with non-maize crops like soybeans or cotton",
+				"Tilling or removing infected crop debris after harvest to reduce fungal overwintering",
+				"Fungicide application may be necessary in severe cases, especially during warm, humid weather"
+			]
+		},
+		"cereal_rice_disease_brown_spot": {
+			"name": "Rice Brown Spot",
+			"cause": "Fungus (Bipolaris oryzae)",
+			"description": "Fungal disease that causes small, brown spots on rice leaves, reducing grain quality and yield.",
+			"symptoms": "Small, brown to reddish-brown spots on leaves, often with yellow halos; spots may enlarge and merge, causing significant leaf area loss; severe infection can cause leaves to wither and die",
+			"treatment": [
+				"Plant rice varieties resistant to brown spot disease",
+				"Practice crop rotation with non-rice crops to reduce fungal inoculum",
+				"Balanced fertilization to promote healthy plant growth",
+				"Fungicide application may be necessary in severe cases, especially during humid weather"
+			]
+		},
+		"cereal_rice_disease_false_smut": {
+			"name": "Rice False Smut",
+			"cause": "Fungus (Ustilaginoideae viridiflava)",
+			"description": "Fungal disease that infects rice grains, causing them to become filled with a greenish or blackish mass of spores instead of kernels.",
+			"symptoms": "Discolored and elongated rice spikelets; spikelets filled with greenish or blackish spore mass instead of developing kernels; stunted growth of infected plants in severe cases",
+			"treatment": [
+				"Planting certified disease-free rice seeds",
+				"Soaking seeds in fungicide before planting",
+				"Balanced fertilization to promote healthy plant growth",
+				"Fallowing fields for a season to reduce fungal inoculum may be recommended in some cases"
+			]
+		},
+		"cereal_rice_disease_leaf_smut": {
+			"name": "Rice Leaf Smut",
+			"cause": "Fungus (Entyloma oryzae)",
+			"description": "Fungal disease that infects rice leaves, causing elongated, black spore masses that rupture through the leaf surface.",
+			"symptoms": "Long, black, blister-like structures erupt on leaf blades; black, powdery spore masses released upon rupture; infected leaves may become distorted or stunted",
+			"treatment": [
+				"Planting certified disease-free rice seeds",
+				"Balanced fertilization to promote healthy plant growth",
+				"Crop rotation with non-rice crops to reduce fungal inoculum",
+				"Fungicide application may be necessary in severe outbreaks"
+			]
+		},
+		"cereal_rice_disease_ragged_stunt_virus": {
+			"name": "Rice Ragged Stunt Virus (RSV)",
+			"cause": "Virus (Rice ragged stunt virus)",
+			"description": "Viral disease transmitted by insects (insects [insects are harmful organisms that feed on plants, animals and other organic matter]) that stunts rice growth and reduces yield.",
+			"symptoms": "Stunted growth of infected plants; leaves become narrow and ragged in appearance; orange or yellow discoloration of leaves; tillering (production of shoots) may be suppressed; sterility or poor grain filling in severe cases",
+			"treatment": [
+				"Planting virus-resistant rice varieties",
+				"Controlling insect vectors (such as planthoppers) that transmit the virus",
+				"Removing and destroying infected plants to prevent further spread"
+			]
+		},
+		"cereal_rice_disease_stunt_virus": {
+			"name": "Rice Stunt Virus (RSV)",
+			"cause": "Virus (Rice stunt virus)",
+			"description": "Viral disease transmitted by insects (insects [insects are harmful organisms that feed on plants, animals and other organic matter]) that stunts rice growth and reduces yield.",
+			"symptoms": "Stunted growth, chlorotic (yellowish) leaves with orange or red stripes, bushy appearance due to excessive tillering, and sterility or poorly filled grains in severe cases",
+			"treatment": [
+				"Planting virus-resistant rice varieties",
+				"Controlling insect vectors (such as leafhoppers) that transmit the virus",
+				"Removing and destroying infected plants to prevent further spread"
+			]
+		},
+		"cereal_rice_disease_tungro_virus": {
+			"name": "Rice Tungro Virus (RTV)",
+			"cause": "Dual virus infection (Rice tungro bacilliform virus and Rice tungro spherical virus)",
+			"description": "Viral disease transmitted by leafhoppers that stunts rice growth, discolors leaves, and reduces yield.",
+			"symptoms": "Stunted growth of infected plants; orange or yellow discoloration of leaves; leaves may become rolled or wilted; stunted panicles with sterile or poorly filled grains in severe cases",
+			"treatment": [
+				"Planting insect-resistant rice varieties",
+				"Controlling leafhopper populations that transmit the virus",
+				"Removing and destroying infected plants to prevent further spread"
+			]
+		},
+		"cereal_rice_healthy": {
+			"name": "Rice (Healthy)",
+			"cause": "",
+			"description": "Rice is a staple grain providing energy, carbohydrates, and various nutrients for a balanced diet.",
+			"symptoms": "Healthy rice plants exhibit upright growth with sturdy stalks; leaves are green and free from spots or discoloration; tillering (production of shoots) occurs uniformly; panicles (grain heads) develop properly and fill with rice kernels during maturity",
+			"treatment": [
+				"Provide adequate water and nutrients throughout the growing season",
+				"Manage weeds and pests to minimize competition and damage",
+				"Monitor for signs of diseases and address them promptly if necessary",
+				"Rotate crops with non-rice varieties to improve soil health in the long term"
+			]
+		},
+		"cereal_wheat_disease_black_rust": {
+			"name": "Black Rust",
+			"cause": "Fungus (Puccinia graminis)",
+			"description": "Fungal disease that infects wheat stems and leaves, forming black, powdery pustules and reducing grain yield.",
+			"symptoms": "Black, elongated pustules erupt on stems, leaf sheaths, and leaves; pustules may cover large areas and appear like tar; leaves may become yellow and wither in severe cases",
+			"treatment": [
+				"Planting wheat varieties resistant to black rust",
+				"Fungicide application may be necessary in some cases, especially during cool, humid weather"
+			]
+		},
+		"cereal_wheat_disease_brown_rust": {
+			"name": "Brown Rust",
+			"cause": "Fungus (Puccinia triticina)",
+			"description": "Fungal disease that infects wheat leaves, forming brown to reddish-brown pustules and reducing grain yield.",
+			"symptoms": "Small, brown to reddish-brown, powdery pustules erupt on leaf surfaces; pustules may appear in clusters or cover large areas; infected leaves may become yellow and wither in severe cases",
+			"treatment": [
+				"Planting wheat varieties resistant to brown rust",
+				"Fungicide application may be necessary in some cases, especially during cool, humid weather"
+			]
+		},
+		"cereal_wheat_disease_fusarium_head_blight": {
+			"name": "Fusarium Head Blight (FHB)",
+			"cause": "Fungus (Fusarium graminearum or related species)",
+			"description": "Fungal disease that infects wheat heads, causing discoloration, reduced grain yield, and potential contamination with mycotoxins.",
+			"symptoms": "Bleached or pinkish discoloration of wheat heads; premature ripening of heads; shrunken and shriveled kernels; presence of fungal spores on heads in severe cases",
+			"treatment": [
+				"Planting wheat varieties resistant to FHB",
+				"Fungicide application during flowering may be necessary in some cases",
+				"Crop rotation with non-cereal crops like canola or peas",
+				"Proper management of crop residue after harvest to reduce fungal inoculum"
+			]
+		},
+		"cereal_wheat_disease_leaf_blight": {
+			"name": "Septoria Leaf Blotch",
+			"cause": "Fungus (Septoria tritici)",
+			"description": "Fungal disease that causes small, oval to elongated lesions on wheat leaves, reducing yield potential.",
+			"symptoms": "Small, oval to elongated, tan to brown lesions on leaves, often with yellow borders; lesions may enlarge and merge, causing significant leaf area loss; severe infection can cause leaves to wither and die",
+			"treatment": [
+				"Planting wheat varieties resistant to Septoria leaf blotch",
+				"Fungicide application may be necessary in severe cases, especially during cool, humid weather",
+				"Crop rotation with non-cereal crops like canola or peas can help reduce disease pressure"
+			]
+		},
+		"cereal_wheat_disease_powdery_mildew": {
+			"name": "Powdery Mildew",
+			"cause": "Fungus (Blumeria graminis)",
+			"description": "Fungal disease that forms a white, powdery growth on wheat leaves and reduces yield potential.",
+			"symptoms": "White, powdery fungal growth on leaves, stems, and heads of wheat plants; leaves may become curled and distorted; stunted growth in severe cases",
+			"treatment": [
+				"Planting wheat varieties resistant to powdery mildew",
+				"Fungicide application may be necessary in severe cases, especially during cool, humid weather",
+				"Proper management of crop residue after harvest to reduce fungal inoculum"
+			]
+		},
+		"cereal_wheat_disease_smut": {
+			"name": "Wheat Smut",
+			"cause": "Fungus (Ustilago tritici)",
+			"description": "Fungal disease that replaces wheat kernels with black, powdery spore masses, reducing yield.",
+			"symptoms": "Black, powdery spore masses instead of developing wheat kernels in infected heads; spores may disperse and infect healthy flowers during flowering",
+			"treatment": [
+				"Planting wheat seeds treated with fungicide",
+				"Hot water seed treatment can be effective in some cases",
+				"Crop rotation with non-cereal crops can help reduce disease pressure"
+			]
+		},
+		"cereal_wheat_yellow_rust": {
+			"name": "Yellow Rust",
+			"cause": "Fungus (Puccinia striiformis)",
+			"description": "Fungal disease that infects wheat leaves, causing yellow stripes and reducing yield potential.",
+			"symptoms": "Longitudinal, yellow stripes with chlorotic centers on wheat leaves; stripes may merge, causing significant leaf area loss; severe infection can cause leaves to wither and die",
+			"treatment": [
+				"Planting wheat varieties resistant to yellow rust",
+				"Fungicide application may be necessary in severe cases, especially during cool, humid weather",
+				"Crop rotation with non-cereal crops like canola or peas can help reduce disease pressure"
+			]
+		},
+		"cereal_wheat_healthy": {
+			"name": "Wheat (Healthy)",
+			"cause": "",
+			"description": "Wheat is a cereal grain cultivated worldwide, providing essential carbohydrates, protein, and fiber for human consumption.",
+			"symptoms": "Healthy wheat plants exhibit upright growth with sturdy stalks and tillers; leaves are green and free from spots or discoloration; heads emerge during flowering and fill with kernels as they mature; straw remains yellow or tan after grain maturity",
+			"treatment": [
+				"Provide adequate water and nutrients throughout the growing season",
+				"Manage weeds and pests to minimize competition and damage",
+				"Practice crop rotation with non-cereal crops like canola or peas to improve soil health in the long term",
+				"Monitor for signs of diseases and address them promptly if necessary"
+			]
+		},
+		"fruits_banana_disease_cordana": {
+			"name": "Cordana Disease",
+			"cause": "Fungus",
+			"description": "Fungal disease attacks banana leaves, causing spots, withering, and yield loss up to 50%. Black sigatoka is the most damaging type.",
+			"symptoms": [
+				"Yellow/brown/black streaks and spots are interspersed with leaves turning yellow and drooping."
+			],
+			"Treatment": [
+				"Cut off and destroy the diseased outer leaves.",
+				"Spray 3-4 times on both sides of the leaves with 1% strength Bordeaux mixture at the beginning of the season and thereafter at 45 days interval",
+				"If the severity of the disease is high, Kontaf or Tilt can be mixed with 1 ml of water per liter and sprayed on the leaves."
+			]
+		},
+		"fruits_banana_disease_sigatoka": {
+			"name": "Sigatoka Disease",
+			"cause": "Fungus",
+			"description": "Fungal disease attacks banana leaves, causing spots, withering, and yield loss up to 50%. Black sigatoka is the most damaging type.",
+			"symptoms": [
+				"Yellow/brown/black streaks and spots are interspersed with leaves turning yellow and drooping."
+			],
+			"Treatment": [
+				"Cut off and destroy the diseased outer leaves.",
+				"Spray 3-4 times on both sides of the leaves with 1% strength Bordeaux mixture at the beginning of the season and thereafter at 45 days interval",
+				"If the severity of the disease is high, Kontaf or Tilt can be mixed with 1 ml of water per liter and sprayed on the leaves."
+			]
+		},
+		"fruits_banana_disease_pestalotiopsis": {
+			"name": "Pestalotiopsis Leaf Spot",
+			"cause": "Fungus (Pestalotiopsis spp.)",
+			"description": "Fungal disease that causes spots and streaks on banana leaves, reducing plant health and fruit quality.",
+			"symptoms": "Variable symptoms including small, brown spots, elongated streaks, or large, irregular lesions on banana leaves; areas around lesions may turn yellow; severe infection can cause extensive leaf damage and defoliation",
+			"treatment": [
+				"Fungicide application may be necessary in severe cases, following guidance for specific Pestalotiopsis species",
+				"Cultural practices like proper drainage, spacing, and removal of infected leaves can help manage disease spread",
+				"Maintaining good plant health through proper nutrition and irrigation is important"
+			]
+		},
+		"fruits_banana_healthy": {
+			"name": "Banana (Healthy)",
+			"cause": "",
+			"description": "Banana is a nutritious fruit rich in potassium, fiber, vitamins, and antioxidants, providing essential dietary components.",
+			"symptoms": "Upright growth with green leaves free from spots, tears, or discoloration; bunch of bananas develops without blemishes, hanging downwards with plump, yellow fruits",
+			"treatment": [
+				"Provide adequate water and nutrients throughout the growing season",
+				"Manage weeds and pests to minimize competition and damage",
+				"Pruning to remove unnecessary suckers and maintaining proper plant spacing can improve air circulation and light penetration",
+				"Monitor for signs of diseases and address them promptly to maintain plant health"
+			]
+		}
+	}
+}
